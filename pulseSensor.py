@@ -4,7 +4,7 @@ import time
 import threading
 from MCP3008 import MCP3008
 from HBConfig import HBConfig
-class Pulsesensor:
+class PulseSensor:
     def __init__(self):
         self.BPM = 0
         self.adc = MCP3008(HBConfig.BUS, HBConfig.DEVICE,HBConfig.CHANNEL)

@@ -1,4 +1,4 @@
-from pulsesensor import Pulsesensor
+from pulseSensor import PulseSensor
 import time
 
 p = Pulsesensor()
@@ -6,7 +6,7 @@ p.startAsyncBPM()
 
 try:
     while True:
-        bpm = p.BPM
+        bpm = p.readBPM()
         if bpm > 0:
             print("BPM: %d" % bpm)
         else:
