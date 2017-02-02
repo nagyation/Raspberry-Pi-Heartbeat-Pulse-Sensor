@@ -9,3 +9,4 @@
  $ unzip master.zip </br>
  $ cd py-spidev-master </br>
  $ sudo python setup.py install </br>
+This just a customized fork for my needs
