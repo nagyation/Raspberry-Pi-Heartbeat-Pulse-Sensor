@@ -1,7 +1,7 @@
 from pulseSensor import PulseSensor
 import time
 
-p = Pulsesensor()
+p = PulseSensor()
 p.startAsyncBPM()
 
 try:
